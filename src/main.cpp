@@ -46,9 +46,10 @@ void loop() {
     // Check if either reading failed using isnan()
     // If failed, print error message and return
 
-    // TODO 10:
+    Serial.println("Humidity: " + String(humidity));
+    Serial.println("Temperature: " + String(temperature) + " °C");
     // Print formatted temperature and humidity values
 
-    // TODO 11:
+    delay(2000);
     // Add a 2-second delay before next reading
 }
