@@ -27,7 +27,7 @@ void setup() {
     dht.begin();
     // Initialize the DHT sensor
 
-    // TODO 6:
+    Serial.println("DHT11 initialized");
     // Print a system initialization message
 }
 
