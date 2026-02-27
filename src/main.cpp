@@ -21,10 +21,10 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
 
-    // TODO 4:
+    Serial.begin(9600);
     // Initialize Serial communication (9600 baud rate)
 
-    // TODO 5:
+    dht.begin();
     // Initialize the DHT sensor
 
     // TODO 6:
