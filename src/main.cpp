@@ -12,6 +12,7 @@
  */
 
 #include <Arduino.h>
+#include <DHT.h>
 // TODO 1:
 // Define the DHT data pin (Use digital pin 2)
 
