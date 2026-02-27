@@ -8,13 +8,12 @@
  * @details
  * This program reads environmental data from the DHT11 sensor
  * and displays temperature and humidity values on Serial Monitor.
- * Students must complete the TODO sections.
+
  */
 
 #include <Arduino.h>
 #include <DHT.h>
 #define DHTPIN 2// Define the DHT data pin (Use digital pin 2)
-
 #define DHTTYPE DHT11// Define the DHT sensor type (DHT11)
 DHT dht(DHTPIN, DHTTYPE);
 // Create a DHT object using the defined pin and sensor type
