@@ -39,7 +39,10 @@ void loop() {
     float temperature = dht.readTemperature();
     // Read temperature value from sensor
 
-    // TODO 9:
+    if (humidity == NAN || temperature == NAN) {
+        Serial.println("Failed to read from DHT sensor!");
+        return;
+    }
     // Check if either reading failed using isnan()
     // If failed, print error message and return
 
